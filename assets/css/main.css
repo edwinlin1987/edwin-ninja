@@ -1,6 +1,6 @@
 /* Header */
 body {
-  font-family: Futura;
+  font-family: Futura, Verdana, Sans-Serif;
 }
 .logo {
   height: 100px;
@@ -41,19 +41,17 @@ main {
   border-radius: 0.5em;
 }
 .over {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.6);
 }
 
 .main {
   margin-top: 1em;
   line-height: 1em;
-  font-family: Futura;
   color: #fff;
   font-size: 2em;
 }
 .small {
   color: #fff;
-  font-family: Futura;
 }
 
 .thumbbar {
@@ -72,13 +70,32 @@ main {
   margin-top: 4em;
   margin-bottom: 4em;
   height: 4em;
-  font-size: .8em;
+  font-size: .7em;
 }
 
-button.navbar-toggle{
-  position: relative;
-  top: 1em;
-}
+/*@media only screen and (max-device-width: 768px) {
+
+  main {
+    font-size: 1em;
+  }
+  .main {
+    font-size: 1em;
+  }
+
+  .thumbbar {
+    font-size: 1em;
+  }
+
+  #hero {
+    font-size: .5em;
+  }
+  footer {
+    visibility: hidden;
+  }
+
+}*/
+
+
 
 /* Projects.html body */
 
@@ -114,9 +131,10 @@ h3 {
 #projects {
   background-color: #f0ad4e;
   color:#fff;
-  font-family: Futura;
   margin-bottom: 2em;
 }
+
+/* Contact Me */
 
 
 
