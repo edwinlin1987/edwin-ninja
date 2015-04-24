@@ -1,3 +1,7 @@
+/* Header */
+body {
+  font-family: Futura;
+}
 .logo {
   height: 100px;
   width: 80%;
@@ -7,6 +11,25 @@
 .ninja {
   height: 4em;
 }
+
+button.navbar-toggle{
+  position: relative;
+  top: 1em;
+}
+
+/* Footer */
+
+footer {
+  background: #f8f8f8;
+}
+
+button.navbar-toggle{
+  position: relative;
+  top: 1em;
+}
+
+
+/* Index.html body */
 
 main {
   font-size: 2em;
@@ -45,7 +68,6 @@ main {
   max-width: 32px;
 }
 
-
 #hero {
   margin-top: 4em;
   margin-bottom: 4em;
@@ -58,10 +80,45 @@ button.navbar-toggle{
   top: 1em;
 }
 
-.thumbbar {
+/* Projects.html body */
+
+title {
+  border: 1px solid #000;
+}
+
+h3 {
+  position: relative;
+  top: -0.85em;
+  left: 1em;
+  background-color: #fff;
+  width: 6.5em;
+  padding: 0;
+  margin: 0;
+}
+
+.thumbnail img {
+  height: 10em;
+  width: auto;
+  top: -1em;
+}
+
+.description {
+  font-size: 0.8em;
+  padding: 2em 1em 2em 2em;
+}
+.project {
+  float: left;
+  top: -1em;
+  padding: .5em;
+}
+#projects {
+  background-color: #f0ad4e;
+  color:#fff;
+  font-family: Futura;
+  margin-bottom: 2em;
 }
 
 
-footer {
-  background: #f8f8f8;
-}
+
+
+
