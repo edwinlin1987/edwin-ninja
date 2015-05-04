@@ -1,6 +1,6 @@
 /* Header */
 body {
-  font-family: Futura, Verdana, Sans-Serif;
+  font-family: Futura, 'Open Sans', Verdana, Sans-Serif;
 }
 .logo {
   height: 100px;
@@ -73,7 +73,7 @@ main {
   font-size: .7em;
 }
 
-/*@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 768px) {
 
   main {
     font-size: 1em;
@@ -93,7 +93,7 @@ main {
     visibility: hidden;
   }
 
-}*/
+}
 
 
 
@@ -134,8 +134,25 @@ h3 {
   margin-bottom: 2em;
 }
 
-/* Contact Me */
+/* About Me */
 
+section p {
+  font-size: .8em;
+}
+
+.profile, .school {
+  float: right;
+  height: 6em;
+  /*width: 5em;*/
+  margin: .5em;
+}
+
+.profile {
+  float: left;
+  border-radius: 50%;
+
+
+}
 
 
 
