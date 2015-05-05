@@ -138,20 +138,22 @@ h3 {
 
 section p {
   font-size: .8em;
+  margin: 0.5em;
+  float: left;
 }
 
-.profile, .school {
+.school {
   float: right;
-  height: 6em;
-  /*width: 5em;*/
   margin: .5em;
 }
 
 .profile {
-  float: left;
   border-radius: 50%;
+  margin: 0.5em;
+}
 
-
+.personal {
+  margin: 0.5em;
 }
 
 
